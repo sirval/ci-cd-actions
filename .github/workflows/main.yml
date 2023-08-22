@@ -17,5 +17,5 @@ jobs:
       with:
         server: ftp.mobislimited.com
         username: dev@outsmart-ideas.ebsgov.org
-        password: ${{ FTP_PASSWORD }}
+        password: ${{ secrets.ftp_password }}
         server-dir: /home/mobijvrl/outsmart-ideas.ebsgov.org/dev
